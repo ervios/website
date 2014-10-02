@@ -8,7 +8,6 @@ include_once ("./includes/overall/overall.header.php");
 init();
 //SQL change user from non-active to active
 //update users set active=1 where user_id=3;
-//To check that Matchresults gets updated, run a query like this:
 //insert into matchresult (team_oneID, team_twoID, teamonescore, teamtwoscore) values (14, 16, 4, 2);
 switch ($_GET['page']) {
 
